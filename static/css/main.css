@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a {
+	text-decoration: none;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+#wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	position: relative;
+}
+
+nav ul, aside ul {
+    list-style:none;
+}
+
+header#mainHeader{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+header#mainHeader ul li {
+    float: left;
+}
+
+header#mainHeader ul li a , footer#pageFooter ul li a{
+    border-right: 1px solid #000000;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+header#mainHeader ul li a.last {
+    border: medium none;
+}
+
+#headerOptions{
+	margin-right: 2px;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+nav#headerSelects{
+	background: #4D585C;
+	border-radius: 5px;
+	padding: 7px 40px;
+	color: #fff;
+}
+
+nav#mainNavigation{
+	background: #F4F4F4;
+	border-radius: 5px;
+    padding: 11px;
+}
+nav#mainNavigation .active{
+	color:#0BB1E8;
+}
+form#headerSearch{
+	right: 0;
+	margin-right: 2px;
+}
+section#slider{
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+footer#pageFooter {
+    clear: both;
+}
